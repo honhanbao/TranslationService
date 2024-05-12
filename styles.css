@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 7vh; /* Set the height of the footer to 70% of the viewport height */
+}
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover {
+    background-color: #666;
+}
+
+/* Style for active navigation item */
+nav ul a.active {
+    background-color: red; /* Change the color to highlight */
+}
+
+section {
+    padding: 20px;
+}
+
+/*Home page*/
+.request-quote-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+.request-quote-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Contact page: section */
+.centered {
+    text-align: center; /* Center-align the heading */
+}
+.contact-section {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center-align items horizontally */
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    border: 2px solid; /* Add border */
+    border-color: #007bff;
+}
+.contact-container {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Spread the child elements evenly */
+    align-items: flex-start; /* Align items at the start of the cross axis */
+}
+
+/* Contact page: quote */
+.contact-form {
+    background-color: gainsboro;
+    max-width: 500px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid; /* Add border */
+    border-color: #007bff;
+}
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.contact-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.contact-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Contact page: email and call */
+.email-call-options {
+    margin: 20px 20px; /* Add top margin to create space between sections */
+    border: 2px solid; /* Add border */
+    border-color: #007bff;
+}
+
+/* service page */
+.service-container {
+    display: flex;
+    justify-content: space-between;
+}
+.service-column {
+    flex: 1;
+}
+.left-column {
+    margin-right: 20px; /* Add margin to create space between columns */
+}
+.right-column {
+    margin-left: 20px; /* Add margin to create space between columns */
+}
+
+
+
+/* Footer */
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5vh; /* Set the height of the footer to 70% of the viewport height */
+}
