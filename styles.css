@@ -2,7 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    align-items: center; /* Center content vertically */
 }
+
+
 header {
     background-color: #333;
     color: #fff;
@@ -34,6 +37,16 @@ section {
     padding: 20px;
 }
 
+/* All pages */
+.border{
+    border: 2px solid; /* Add border */
+    border-color: #007bff;
+}
+
+.centered {
+    text-align: center; /* Center-align the heading */
+}
+
 /*Home page*/
 .request-quote-button {
     display: block;
@@ -51,11 +64,10 @@ section {
     background-color: #0056b3;
 }
 
+/* About page */
+
 
 /* Contact page: section */
-.centered {
-    text-align: center; /* Center-align the heading */
-}
 .contact-section {
     display: flex;
     flex-direction: column; /* Stack items vertically */
@@ -101,9 +113,15 @@ section {
 
 /* Contact page: email and call */
 .email-call-options {
+    display: flex;
+    flex-direction: column;
     margin: 20px 20px; /* Add top margin to create space between sections */
     border: 2px solid; /* Add border */
     border-color: #007bff;
+}
+
+.email-call-options .centered {
+    margin-bottom: 1cm;
 }
 
 /* service page */
