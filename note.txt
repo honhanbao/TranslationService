@@ -1,0 +1,4 @@
+https://www.javascripttutorial.net/nodejs-tutorial/simple-express-server/
+https://marketsplash.com/how-to-implement-email-sending-in-express/
+https://dev.to/manthanank/building-a-simple-email-sending-api-with-express-and-nodejs-eln
+
